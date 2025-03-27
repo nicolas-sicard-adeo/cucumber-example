@@ -1,0 +1,24 @@
+{
+  "extends": "@tsconfig/node20/tsconfig.json",
+  "compilerOptions": {
+    "allowJs": true,
+    "module": "CommonJS",
+    "declaration": true,
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    "noLib": false,
+    "sourceMap": true,
+    "removeComments": true,
+    "incremental": true,
+    // Imports
+    "allowSyntheticDefaultImports": true,
+    "resolveJsonModule": true,
+    // Variables
+    "noFallthroughCasesInSwitch": false,
+    "noImplicitAny": true,
+    "noUnusedLocals": true,
+    "noUnusedParameters": true,
+    "strictNullChecks": true,
+    "strictBindCallApply": true
+  }
+}
